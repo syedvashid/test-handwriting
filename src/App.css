@@ -226,7 +226,7 @@ canvas:focus {
   
   .gradient-text {
     background: #ffffff;
-    -webkit-background-clip: text;
+  
     -webkit-text-fill-color: transparent;
   }
 }
