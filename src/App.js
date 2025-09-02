@@ -8,7 +8,7 @@ const supabaseAnonKey = process.env.REACT_APP_SUPABASE_ANON_KEY;
 // Google Vision API call
 // Azure OCR API call
 const processWithAzureOCR = async (imageBlob) => {
-  const endpoint = process.env.REACT_APP_AZURE_ENDPOINT; // e.g. "https://<your-resource>.cognitiveservices.azure.com/"
+  const endpoint = process.env.REACT_APP_AZURE_ENDPOINT; 
   const apiKey = process.env.REACT_APP_AZURE_KEY;
 
   try {
