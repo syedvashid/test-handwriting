@@ -52,6 +52,8 @@ const processWithAzureOCR = async (imageBlob) => {
   }
 };
 
+console.log("Supabase URL:", process.env.REACT_APP_SUPABASE_URL);
+console.log("Azure Endpoint:", process.env.REACT_APP_AZURE_ENDPOINT);
 
 // Supabase Storage - Upload image
 const uploadImageToSupabase = async (imageBlob) => {
